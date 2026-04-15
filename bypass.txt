@@ -7,5 +7,3 @@ payload:
   - '+.teams.microsoft.com'
   - '+.sharepoint.com'
   - '+.onedrive.com'
-# 其他
-  - '+.eu.org'
