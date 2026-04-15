@@ -10,34 +10,34 @@ payload:
   - '+.graph.microsoft.com'
   - '+.login.live.com'
 # Claude
-  - '+.cdn.usefathom.com
-  - '+.anthropic.com
-  - '+.claude.ai
+  - '+.cdn.usefathom.com'
+  - '+.anthropic.com'
+  - '+.claude.ai'
 # ChatGPT
-  - '+.cdn.auth0.com
-  - '+.challenges.cloudflare.com
-  - '+.openaiapi-site.azureedge.net
-  - '+.sentry.io
-  - '+.ai.com
-  - '+.identrust.com
-  - '+.openai.com
-  - '+.oaistatic.com
-  - '+.oaiusercontent.com
-  - '+.chatgpt.com
+  - '+.cdn.auth0.com'
+  - '+.challenges.cloudflare.com'
+  - '+.openaiapi-site.azureedge.net'
+  - '+.sentry.io'
+  - '+.ai.com'
+  - '+.identrust.com'
+  - '+.openai.com'
+  - '+.oaistatic.com'
+  - '+.oaiusercontent.com'
+  - '+.chatgpt.com'
 # Gemini
-  - '+.ai.google.dev
-  - '+.alkalimakersuite-pa.clients6.google.com
-  - '+.makersuite.google.com
-  - '+.bard.google.com
-  - '+.deepmind.com
-  - '+.deepmind.google
-  - '+.gemini.google.com
-  - '+.generativeai.google
-  - '+.proactivebackend-pa.googleapis.com
-  - '+.apis.google.com
-  - '+.colab
-  - '+.developerprofiles
-  - '+.generativelanguage
+  - '+.ai.google.dev'
+  - '+.alkalimakersuite-pa.clients6.google.com'
+  - '+.makersuite.google.com'
+  - '+.bard.google.com'
+  - '+.deepmind.com'
+  - '+.deepmind.google'
+  - '+.gemini.google.com'
+  - '+.generativeai.google'
+  - '+.proactivebackend-pa.googleapis.com'
+  - '+.apis.google.com'
+  - '+.colab'
+  - '+.developerprofiles'
+  - '+.generativelanguage'
 # Others
   - '+.speedtest.net'
   - '+.backblaze.com'
