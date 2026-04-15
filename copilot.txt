@@ -2,5 +2,9 @@ payload:
 # Copilot 主站和核心服务
   - 'copilot.microsoft.com'
   - '+.bing.com'
-  - 'm365.cloud.microsoft'
-  - 'www.bingapis.com'
+  - '+.m365.cloud.microsoft'
+  - '+.bingapis.com'
+  - '+.location.microsoft.com'
+  - '+.bingviz.microsoftapp.net'
+  - '+.msn.com'
+  - '+.appcenter.ms'
