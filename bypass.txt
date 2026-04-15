@@ -7,3 +7,9 @@ payload:
   - '+.teams.microsoft.com'
   - '+.sharepoint.com'
   - '+.onedrive.com'
+  # Cloudflare 直连
+  - '+.cloudflare.com'
+  - '+.cloudflare.net'
+  - '+.cloudflare-dns.com'
+  - '+.cloudflareclient.com'
+  - '+.cloudflare-cn.com'
