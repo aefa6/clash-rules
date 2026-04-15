@@ -1,13 +1,18 @@
 payload:
 # Copilot 主站和核心服务
-  - 'copilot.microsoft.com'
+  - '+.copilot.microsoft.com'
   - '+.bing.com'
-  - '+.m365.cloud.microsoft'
   - '+.bingapis.com'
+  - '+.bingapiproxy.microsoft.com'
+  - '+.m365.cloud.microsoft'
   - '+.location.microsoft.com'
   - '+.bingviz.microsoftapp.net'
   - '+.msn.com'
   - '+.appcenter.ms'
+  - '+.edge.microsoft.com'
+  - '+.edge-consumer-static.azureedge.net'
+  - '+.msftstatic.com'
+  - '+.msedge.net'
 # 其他杂项
   - '+.speedtest.net'
   - '+.backblaze.com'
