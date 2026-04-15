@@ -8,6 +8,9 @@ payload:
   - '+.sharepoint.com'
   - '+.onedrive.com'
   - '+.svc.ms'
+  - '+.events.data.microsoft.com'
+  - '+.client.wns.windows.com'
+  - '+.nav-edge.smartscreen.microsoft.com'
 # Cloudflare 直连
   - '+.cloudflare.com'
   - '+.cloudflare.net'
