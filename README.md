@@ -19,7 +19,7 @@ markdown
 | 规则文件 | 用途 | CDN 链接 |
 |---------|------|---------|
 | **bypass.txt** | 需要**绕过代理**（直连）的规则<br>（如：Apple、Microsoft 等国内访问良好的服务） | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/bypass.txt` |
-| **copilot.txt** | **GitHub Copilot** 及相关服务的代理规则 | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/copilot.txt` |
+| **copilot.txt** | **Microsoft Copilot** 及相关服务的代理规则 | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/copilot.txt` |
 
 ## 🚀 快速使用
 
