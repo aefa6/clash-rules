@@ -1,9 +1,11 @@
 payload:
 # apple服务
   - '+.apple.com'
-# 其他 Microsoft 服务OneDrive、Teams 等走直连
+# Microsoft 服务OneDrive、Teams 等走直连
   - '+.office365.com'
   - '+.office.com'
   - '+.teams.microsoft.com'
   - '+.sharepoint.com'
   - '+.onedrive.com'
+# 其他
+  - '+.eu.org'
