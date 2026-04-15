@@ -30,6 +30,6 @@ payload:
   - '+.unrealengine.com'
   - '+.epicgames-download1-1251447533.file.myqcloud.com'
 # Steam客户端 直连
-DOMAIN-SUFFIX,steamstatic.com,DIRECT
-DOMAIN-SUFFIX,steampowered.com,DIRECT
-DOMAIN,api.steampowered.com,DIRECT
+  - '+.steamstatic.com'
+  - '+.steampowered.com'
+  - '+.api.steampowered.com'
