@@ -19,3 +19,17 @@ payload:
   - '+.cloudflare-dns.com'
   - '+.cloudflareclient.com'
   - '+.cloudflare-cn.com'
+# EpicGames客户端 直连
+  - '+.eac-cdn.com'
+  - '+.easy.ac'
+  - '+.easyanticheat.net'
+  - '+.epicgames.com'
+  - '+.epicgames.dev'
+  - '+.epicgamescdn.com'
+  - '+.helpshift.com'
+  - '+.unrealengine.com'
+  - '+.epicgames-download1-1251447533.file.myqcloud.com'
+# Steam客户端 直连
+DOMAIN-SUFFIX,steamstatic.com,DIRECT
+DOMAIN-SUFFIX,steampowered.com,DIRECT
+DOMAIN,api.steampowered.com,DIRECT
