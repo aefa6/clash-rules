@@ -1,0 +1,38 @@
+name: Update Release Tag
+
+on:
+  push:
+    branches:
+      - main  
+
+permissions:
+  contents: write  
+
+jobs:
+  update-tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  
+
+      - name: Delete old 'release' tag (local and remote)
+        run: |
+          git tag -d release 2>/dev/null || true
+          git push origin :release 2>/dev/null || true
+
+      - name: Create new 'release' tag on latest commit
+        run: |
+          git tag release
+          git push origin release
+
+      - name: Create or update GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: release
+          name: "Latest Release"
+          body: "自动更新的最新版本，基于 commit ${{ github.sha }}"
+          makeLatest: true  
+          allowUpdates: true  
+          removeArtifacts: true  
