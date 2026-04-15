@@ -18,7 +18,7 @@ markdown
 | 规则文件 | 用途 | CDN 链接 |
 |---------|------|---------|
 | **bypass.txt** | 需要**绕过代理**（直连）的规则<br>（如：Apple、Microsoft 等国内访问良好的服务） | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/bypass.txt` |
-| **copilot.txt** | **Microsoft Copilot** 及相关服务的代理规则 | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/copilot.txt` |
+| **proxy.txt** | **Microsoft Copilot等AI及其他** 的代理规则 | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/proxy.txt` |
 
 ## 🚀 快速使用
 
@@ -31,8 +31,8 @@ rules:
   # 引用直连规则 (bypass)
   - RULE-SET,https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/bypass.txt,DIRECT
   
-  # 引用 Copilot 代理规则
-  - RULE-SET,https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/copilot.txt,PROXY
+  # 引用 proxy 代理规则
+  - RULE-SET,https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/proxy.txt,PROXY
   
   # 其他规则...
   - MATCH,PROXY
@@ -43,8 +43,8 @@ rules:
 bypass.txt (直连规则)
 Apple & Microsoft 直连服务
 
-copilot.txt (代理规则)
-Microsoft copilot & M365 copilot
+proxy.txt (代理规则)
+AI & Others
 
 ## 🤝 贡献与反馈
 
