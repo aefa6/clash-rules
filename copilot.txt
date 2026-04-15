@@ -8,3 +8,6 @@ payload:
   - '+.bingviz.microsoftapp.net'
   - '+.msn.com'
   - '+.appcenter.ms'
+# 其他杂项
+  - '+.speedtest.net'
+  - '+.backblaze.com'
