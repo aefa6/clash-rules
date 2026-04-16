@@ -33,3 +33,5 @@ payload:
   - '+.steamstatic.com'
   - '+.steampowered.com'
   - '+.api.steampowered.com'
+# others
+  - '+.intercom.io'
