@@ -8,7 +8,11 @@ payload:
   - '+.msn.com'
   - '+.edge.microsoft.com'
   - '+.graph.microsoft.com'
+  - '+.cdn.designerapp.osi.office.net'
+  - '+.designer.microsoft.com'
+  - '+.go.trouter.teams.microsoft.com'
   - '+.login.live.com'
+
 # Claude
   - '+.cdn.usefathom.com'
   - '+.anthropic.com'
