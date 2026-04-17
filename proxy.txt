@@ -16,6 +16,8 @@ payload:
   - '+.officeapps.live.com'
   - 'substrate.office.com'
   - 'mss.office.com'
+  - 'go.microsoft.com'
+  - 'odc.officeapps.live.comm'
 # Claude
   - '+.cdn.usefathom.com'
   - '+.anthropic.com'
@@ -46,6 +48,9 @@ payload:
   - '+.developerprofiles'
   - '+.generativelanguage'
 # Meta
+  - '+.whatsapp.net'
+  - '+.whatsapp.com'
+  - '+.fbcdn.net'
   - '+.intercom.io'
 # Others
   - '+.backblaze.com'
