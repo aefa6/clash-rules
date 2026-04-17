@@ -12,7 +12,10 @@ payload:
   - '+.designer.microsoft.com'
   - '+.go.trouter.teams.microsoft.com'
   - '+.login.live.com'
-
+  - '+.azurefd.net'
+  - '+.officeapps.live.com'
+  - 'substrate.office.com'
+  - 'mss.office.com'
 # Claude
   - '+.cdn.usefathom.com'
   - '+.anthropic.com'
