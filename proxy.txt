@@ -42,7 +42,8 @@ payload:
   - '+.colab'
   - '+.developerprofiles'
   - '+.generativelanguage'
+# Meta
+  - '+.intercom.io'
 # Others
-  - '+.speedtest.net'
   - '+.backblaze.com'
   - '+.benchmark.1e100cdn.net'
