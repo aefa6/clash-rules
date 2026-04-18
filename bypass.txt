@@ -1,6 +1,10 @@
 payload:
 # apple服务
   - '+.apple.com'
+  - '+.icloud.com'
+  - '+.aaplimg.com'
+  - '+.apple.co'
+  - '+.akadns.net'
 # Microsoft 服务OneDrive、Teams 等走直连
   - '+.office365.com'
   - '+.office.com'
