@@ -1,10 +1,15 @@
 payload:
 # apple服务
+  - '+.mzstatic.com'
+  - '+.aaplimg.com'
+  - '+.cdn-apple.com'
   - '+.apple.com'
   - '+.icloud.com'
   - '+.aaplimg.com'
+  - '+.store.apple.com.edgekey.net'
   - '+.apple.co'
   - '+.akadns.net'
+  - '+.apple-mapkit.com'
 # Microsoft 服务OneDrive、Teams 等走直连
   - '+.office365.com'
   - '+.office.com'
