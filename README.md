@@ -16,8 +16,8 @@ markdown
 
 | 规则文件 | 用途 | CDN 链接 |
 |---------|------|---------|
-| **bypass.txt** | 需要**绕过代理**（直连）的规则<br>（如：Apple、Microsoft 等国内访问良好的服务） | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/bypass.txt` |
-| **proxy.txt** | **Microsoft Copilot等AI及其他** 的代理规则 | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/proxy.txt` |
+| **bypass.txt** | 需要**绕过代理**[直连规则](https://cdn.jsdelivr.net/gh/aefa6/clash-rules/bypass.txt)<br>（如：Apple、Microsoft 等国内访问良好的服务） | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules/bypass.txt` |
+| **proxy.txt** | **Microsoft Copilot等AI及其他** 的[代理规则](https://cdn.jsdelivr.net/gh/aefa6/clash-rules/bypass.txt) | `https://cdn.jsdelivr.net/gh/aefa6/clash-rules/bypass.txt` |
 
 ## 🚀 快速使用
 
