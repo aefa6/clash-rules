@@ -11,7 +11,6 @@ markdown
 本规则库**不做大而全的通用规则**，而是聚焦于：
 - ✅ **特定服务**：需要特殊处理的直连或代理服务
 - ✅ **冷门规则**：主流规则集未覆盖的网站或APP
-- ✅ **精细化分流**：针对具体域名而非泛域名规则
 
 ## 📦 规则列表
 
@@ -29,10 +28,10 @@ markdown
 ```yaml
 rules:
   # 引用直连规则 (bypass)
-  - RULE-SET,https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/bypass.txt,DIRECT
+  - RULE-SET,https://raw.githubusercontent.com/aefa6/clash-rules/refs/heads/main/bypass.txt,DIRECT
   
   # 引用 proxy 代理规则
-  - RULE-SET,https://cdn.jsdelivr.net/gh/aefa6/clash-rules@release/proxy.txt,PROXY
+  - RULE-SET,https://raw.githubusercontent.com/aefa6/clash-rules/refs/heads/main/proxy.txt,PROXY
   
   # 其他规则...
   - MATCH,PROXY
