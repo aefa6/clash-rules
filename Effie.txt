@@ -1,0 +1,12 @@
+payload:
+# Meta
+  - '+.whatsapp.net'
+  - '+.whatsapp.com'
+  - '+.fbcdn.net'
+  - '+.intercom.io'
+# Others
+  - '+.backblaze.com'
+  - '+.benchmark.1e100cdn.net'
+# linkedin
+  - '+.linkedin.com'
+  - '+.licdn.com'
