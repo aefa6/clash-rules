@@ -53,3 +53,4 @@ payload:
   - '+.benchmark.1e100cdn.net'
 # linkedin
   - '+.linkedin.com'
+  - '+.licdn.com'
