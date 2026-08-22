@@ -45,3 +45,4 @@ payload:
 # others
   - '+.speedtest.net'
   - '+.ookla.com'
+  - '+.iosgods.com'
