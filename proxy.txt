@@ -39,16 +39,6 @@ payload:
   - DOMAIN-SUFFIX,modelcontextprotocol.io
   - DOMAIN-SUFFIX,modelcontextprotocol.net
   - DOMAIN-SUFFIX,modelcontextprotocol.org
-  - PROCESS-NAME,Claude
-  - PROCESS-NAME,Claude.exe
-  - PROCESS-NAME,claude
-  - PROCESS-NAME,claude.exe
-  - PROCESS-NAME,cowork-svc.exe
-
-  # Anthropic / Network
-  - IP-CIDR,160.79.104.0/21,no-resolve
-  - IP-CIDR6,2607:6bc0::/32,no-resolve
-  - IP-ASN,399358,no-resolve
 
   # Anthropic / Third-Party
   - DOMAIN,anthropic-com.ghost.io
@@ -72,15 +62,9 @@ payload:
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,sillylittleguy.org
   - DOMAIN-SUFFIX,statsigapi.net
-  - DOMAIN-KEYWORD,datadog
-  - DOMAIN-KEYWORD,sentry
-  - DOMAIN-KEYWORD,sift
 
   # Augment Code / Core
   - DOMAIN-SUFFIX,augmentcode.com
-  - PROCESS-NAME,Augment
-  - PROCESS-NAME,Augment.exe
-  - PROCESS-NAME,augment
 
   # Black Forest Labs / Core
   - DOMAIN-SUFFIX,bfl.ai
@@ -177,7 +161,6 @@ payload:
   - DOMAIN-SUFFIX,observeit.net
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,stripe.com
-  - IP-ASN,14061,no-resolve
 
   # CrewAI / Core
   - DOMAIN-SUFFIX,crewai.com
@@ -187,9 +170,6 @@ payload:
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
-  - PROCESS-NAME,Cursor
-  - PROCESS-NAME,Cursor.exe
-  - PROCESS-NAME,cursor
 
   # DeepInfra / Core
   - DOMAIN-SUFFIX,deepinfra.com
@@ -244,9 +224,6 @@ payload:
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
-  - PROCESS-NAME,Antigravity
-  - PROCESS-NAME,Antigravity.exe
-  - PROCESS-NAME,antigravity
 
   # Google AI / Third-Party
   - DOMAIN,alkalicore-pa.clients6.google.com
@@ -387,21 +364,6 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,openaicom.imgix.net
   - DOMAIN-SUFFIX,sora.com
-  - DOMAIN-KEYWORD,chatgpt-async-webps-prod
-  - DOMAIN-KEYWORD,openai
-  - PROCESS-NAME,ChatGPT
-  - PROCESS-NAME,ChatGPT.exe
-  - PROCESS-NAME,Codex
-  - PROCESS-NAME,Codex.exe
-  - PROCESS-NAME,chatgpt
-  - PROCESS-NAME,codex
-
-  # OpenAI / Network
-  - IP-CIDR,199.47.142.0/23,no-resolve
-  - IP-CIDR,24.199.123.28/32,no-resolve
-  - IP-CIDR,64.23.132.171/32,no-resolve
-  - IP-CIDR6,2604:f20::/32,no-resolve
-  - IP-ASN,401518,no-resolve
 
   # OpenAI / Third-Party
   - DOMAIN,openai-api.arkoselabs.com
@@ -415,7 +377,6 @@ payload:
   - DOMAIN-SUFFIX,oaistatsig.com
   - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,turn.livekit.cloud
-  - DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
 
   # OpenArt / Core
   - DOMAIN-SUFFIX,openart.ai
@@ -505,9 +466,6 @@ payload:
   - DOMAIN-SUFFIX,codeiumdata.com
   - DOMAIN-SUFFIX,windsurf.build
   - DOMAIN-SUFFIX,windsurf.com
-  - PROCESS-NAME,Windsurf
-  - PROCESS-NAME,Windsurf.exe
-  - PROCESS-NAME,windsurf
 
   # xAI / Core
   - DOMAIN-SUFFIX,grok.com
