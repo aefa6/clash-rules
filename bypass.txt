@@ -5,9 +5,9 @@ payload:
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,svc.ms
-  - DOMAIN-SUFFIX,microsoftonline.com   # 账号认证，直连可以加快登录
-  - DOMAIN-SUFFIX,office.com            # 网页版 Office
-  - DOMAIN-SUFFIX,office365.com         # 网页版 Office
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,client.wns.windows.com
