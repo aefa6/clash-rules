@@ -17,7 +17,7 @@ payload:
   - 'substrate.office.com'
   - 'mss.office.com'
   - 'go.microsoft.com'
-  - 'odc.officeapps.live.comm'
+  - 'odc.officeapps.live.com'
 # Claude
   - '+.cdn.usefathom.com'
   - '+.anthropic.com'
