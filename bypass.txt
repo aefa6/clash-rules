@@ -1,53 +1,53 @@
 payload:
-  # --- Microsoft OneDrive/SharePoint 直连专属 ---
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,livefilestore.com
-  - DOMAIN-SUFFIX,1drv.com
-  - DOMAIN-SUFFIX,svc.ms
-  - DOMAIN-SUFFIX,microsoftonline.com
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
-  - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
-  - DOMAIN-SUFFIX,client.wns.windows.com
-  - DOMAIN-SUFFIX,nav-edge.smartscreen.microsoft.com
+#--- Microsoft OneDrive/SharePoint 直连专属 ---
+  - '+.sharepoint.com'
+  - '+.onedrive.com'
+  - '+.livefilestore.com'
+  - '+.1drv.com'
+  - '+.svc.ms'
+  - '+.microsoftonline.com'
+  - '+.office.com'
+  - '+.office365.com'
+  - '+.dl.delivery.mp.microsoft.com'
+  - '+.tlu.dl.delivery.mp.microsoft.com'
+  - '+.client.wns.windows.com'
+  - '+.nav-edge.smartscreen.microsoft.com'
 
-  # --- Apple 服务直连 ---
-  - DOMAIN-SUFFIX,mzstatic.com
-  - DOMAIN-SUFFIX,aaplimg.com
-  - DOMAIN-SUFFIX,cdn-apple.com
-  - DOMAIN-SUFFIX,apple.com
-  - DOMAIN-SUFFIX,icloud.com
-  - DOMAIN-SUFFIX,store.apple.com.edgekey.net
-  - DOMAIN-SUFFIX,apple.co
-  - DOMAIN-SUFFIX,akadns.net
-  - DOMAIN-SUFFIX,apple-mapkit.com
+#--- Apple 服务直连 ---
+  - '+.mzstatic.com'
+  - '+.aaplimg.com'
+  - '+.cdn-apple.com'
+  - '+.apple.com'
+  - '+.icloud.com'
+  - '+.store.apple.com.edgekey.net'
+  - '+.apple.co'
+  - '+.akadns.net'
+  - '+.apple-mapkit.com'
 
-  # --- Cloudflare 直连 ---
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cloudflare.net
-  - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,cloudflareclient.com
-  - DOMAIN-SUFFIX,cloudflare-cn.com
+#--- Cloudflare 直连 ---
+  - '+.cloudflare.com'
+  - '+.cloudflare.net'
+  - '+.cloudflare-dns.com'
+  - '+.cloudflareclient.com'
+  - '+.cloudflare-cn.com'
 
-  # --- EpicGames 客户端直连 ---
-  - DOMAIN-SUFFIX,eac-cdn.com
-  - DOMAIN-SUFFIX,easy.ac
-  - DOMAIN-SUFFIX,easyanticheat.net
-  - DOMAIN-SUFFIX,epicgames.com
-  - DOMAIN-SUFFIX,epicgames.dev
-  - DOMAIN-SUFFIX,epicgamescdn.com
-  - DOMAIN-SUFFIX,helpshift.com
-  - DOMAIN-SUFFIX,unrealengine.com
-  - DOMAIN-SUFFIX,epicgames-download1-1251447533.file.myqcloud.com
+#--- EpicGames 客户端直连 ---
+  - '+.eac-cdn.com'
+  - '+.easy.ac'
+  - '+.easyanticheat.net'
+  - '+.epicgames.com'
+  - '+.epicgames.dev'
+  - '+.epicgamescdn.com'
+  - '+.helpshift.com'
+  - '+.unrealengine.com'
+  - '+.epicgames-download1-1251447533.file.myqcloud.com'
 
-  # --- Steam 客户端直连 ---
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,api.steampowered.com
+#--- Steam 客户端直连 ---
+  - '+.steamstatic.com'
+  - '+.steampowered.com'
+  - '+.api.steampowered.com'
 
-  # --- 其他直连 ---
-  - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-SUFFIX,ookla.com
-  - DOMAIN-SUFFIX,iosgods.com
+#--- 其他直连 ---
+  - '+.speedtest.net'
+  - '+.ookla.com'
+  - '+.iosgods.com'
