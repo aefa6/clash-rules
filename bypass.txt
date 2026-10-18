@@ -42,7 +42,7 @@ payload:
   - '+.unrealengine.com'
   - '+.epicgames-download1-1251447533.file.myqcloud.com'
 
-#--- Steam 客户端直连 ---
+#--- Steam 下载直连 ---
   - '+.steamcontent.com'
   - '+.steamserver.net'
   - '+.steampowered.com'
