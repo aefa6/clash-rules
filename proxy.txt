@@ -1,8 +1,8 @@
 payload:
   # hdhive
-  - '+.hdhive.com
-  - '+.re0.me
+  - '+.hdhive.com'
+  - '+.re0.me'
 
   # linkedin
-  - '+.linkedin.com
-  - '+.licdn.com
+  - '+.linkedin.com'
+  - '+.licdn.com'
