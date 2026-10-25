@@ -9,7 +9,6 @@ payload:
   - '+.office.com'
   - '+.office365.com'
   - '+.dl.delivery.mp.microsoft.com'
-  - '+.tlu.dl.delivery.mp.microsoft.com'
   - '+.client.wns.windows.com'
   - '+.nav-edge.smartscreen.microsoft.com'
 
@@ -45,12 +44,7 @@ payload:
 #--- Steam 下载直连 ---
   - '+.steamcontent.com'
   - '+.steamserver.net'
-  - '+.steampowered.com'
   - '+.api.steampowered.com'
-
-#--- BTD6 直连 ---
-  - '+.ninjakiwi.com'
-  - '+.nkstatic.com'
 
 #--- 其他直连 ---
   - '+.speedtest.net'
