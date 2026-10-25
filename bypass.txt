@@ -48,6 +48,9 @@ payload:
   - '+.steampowered.com'
   - '+.api.steampowered.com'
 
+#--- BTD6 直连 ---
+  - '+.ninjakiwi.com'
+  - '+.nkstatic.com'
 
 #--- 其他直连 ---
   - '+.speedtest.net'
